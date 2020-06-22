@@ -1,0 +1,59 @@
+#register-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20em;
+  /* margin: 171px; */
+  align-items: center;
+  justify-content: center;
+  margin-top: -163px;
+}
+#root {
+  background-image: url(https://www.jakpost.travel/wimages/large/175-1753815_hd-clean-blurred-purple-background-wallpapers-solid-screen.png);
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: grid;
+  justify-items: center;
+  box-sizing: border-box;
+  padding-bottom: 2em;
+}
+#formStyle {
+  align-items: center;
+  justify-content: center;
+  margin-top: -208px;
+  margin-bottom: -131px;
+}
+.ui.labeled.input {
+  margin: 8px;
+  margin-bottom: 15px;
+  height: 60px;
+  width: 450px;
+}
+.ui.label.label {
+  width: 130px;
+  color: #5a4576;
+}
+.ui.button {
+  height: 60px;
+  width: 450px;
+  margin-top: 20px;
+  color: #5a4576;
+}
+.buttonSizeCreateUser {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: large;
+  margin-left: 35px;
+  font-weight: 100;
+  color: #5a4576;
+  text-decoration-line: underline;
+}
+
+h1 {
+  margin-top: 10px;
+  color: #422c56;
+  font-family: "Carter One", cursive;
+}

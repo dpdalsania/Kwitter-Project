@@ -1,0 +1,14 @@
+.buttonSize {
+  background-color: #51eaea;
+  color: black;
+  border-radius: 1em;
+}
+
+textarea {
+  border-radius: 1em;
+  border: 0;
+  color: white;
+  border: 6px solid #431199;
+  padding: 1em;
+  /* margin: 2em; */
+}

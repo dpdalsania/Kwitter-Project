@@ -1,0 +1,48 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-self: stretch;
+  justify-content: space-around;
+  padding: 0.5em;
+  border-radius: 1em;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* margin: 0.5vh; */
+  padding-left: 1em;
+  align-items: center;
+  flex-grow: 4;
+}
+
+.menu-links a:hover {
+  color: #51eaea;
+}
+
+.menu-links a {
+  padding-right: 0.5em;
+  color: white;
+  cursor: pointer;
+  font-size: xx-large;
+  margin: 3vh;
+}
+.menu > h1 {
+  font-size: 5em;
+  font-family: "Carter One", cursive;
+  color: #51eaea;
+  align-self: center;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.menu-links .selected {
+  color: #431299;
+  text-decoration: none;
+  cursor: default;
+}

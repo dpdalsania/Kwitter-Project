@@ -1,0 +1,31 @@
+.messageList {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 1em;
+  color: black;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #51eaea;
+}
+
+.messageCard {
+  background-color: #240b4e;
+  color: white;
+  border-radius: 1em;
+  border: 6px solid #431199;
+  padding: 1em;
+  margin: 0.5em 2em;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.messageFooter {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #51eaea;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-around;
+}

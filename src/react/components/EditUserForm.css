@@ -1,0 +1,210 @@
+.editPageArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  
+  .editColumnLeft {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 5vh;
+  
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    max-width: 30vw;
+  }
+  
+  .editColumnLeft > * {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    background-color: #240b4e;
+    border: 10px solid #431199;
+    border-radius: 1em;
+    padding: 10px;
+    color: white;
+    height: 100%;
+  }
+  
+  .editColumnLeft > * > * {
+    margin: 1vh;
+    border-radius: 1em;
+    align-self: center;
+  }
+  
+  .editColumnMiddle {
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    background-color: #240b4e;
+    border: 10px solid #431199;
+    border-radius: 1em;
+    padding: 10px;
+    color: white;
+    height: 100%;
+  }
+  
+  .editColumnMiddle > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    margin: 0;
+  }
+  
+  .editColumnMiddle img {
+    align-self: center;
+    justify-content: center;
+  }
+  .editColumnRight {
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    background-color: #240b4e;
+    border: 10px solid #431199;
+    border-radius: 1em;
+    padding: 10px;
+    color: white;
+    height: 100%;
+  }
+  
+  .editColumnRight {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 30vw;
+    margin: 5vh;
+    background-color: #240b4e;
+    border: 10px solid #431199;
+    border-radius: 1em;
+    padding: 10px;
+    color: white;
+    height: 100%;
+  }
+  
+  .editColumnRight > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    margin: 0;
+  }
+  .editColumnRight > * {
+    /* background: purple; */
+    max-width: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #editSubmit {
+    width: 9em;
+    height: 3em;
+  }
+  
+  #returnFromEdit {
+    width: 9em;
+    height: 3.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+  }
+  #returnFromEdit > * {
+    color: black;
+  }
+  
+  #deleteUserButton {
+    max-width: 9em;
+    max-height: 3.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: red;
+    color: white;
+    border-radius: 1em;
+  }
+  
+  #choosePictureButton {
+    max-width: 20em;
+    max-height: 3.5em;
+    background: #e0e1e2 none;
+    background-color: white;
+    margin-right: 3.5px;
+  }
+  
+  input {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background-color: #51eaea;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: 0 0.25em 0 0;
+    padding: 0.78571429em 1.5em 0.78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+    overflow: visible;
+    min-width: 9em;
+  }
+  
+  #submitPictureButton {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin: 0 0.25em 0 0;
+    padding: 0.78571429em 1.5em 0.78571429em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, 0.15) inset;
+    max-width: 8em;
+    max-height: 3.5em;
+  }
+  
